@@ -10,7 +10,15 @@
 ## USED LARAVEL 11
 ## Stage 01
 
-PHP REST API FOR ORDER CREATION : http://127.0.0.1:8000/api/new_order
+PHP REST API FOR ORDER CREATION : 
+#POST 
+http://127.0.0.1:8000/api/new_order
+
+{
+    "customer_name" : "chandana",
+    "order_value" : "800"
+}
+
 AFTER THE ORDER CREATION IS SUCCESS, THEN IT WILL CALL THIRD PARTY API (POST) TO SUBMIT THE DATA ON THE SAME.
 
 ## Stage 02
